@@ -1,0 +1,31 @@
+{
+  "name": "express-ts",
+  "version": "0.0.0",
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "npm run serve",
+    "serve": "node lib/bin/www.js",
+    "watch-node": "nodemon lib/bin/www.js",
+    "watch-ts": "tsc -w"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "@types/debug": "0.0.31",
+    "@types/express": "^4.16.0",
+    "@types/http-errors": "^1.6.1",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^10.12.15",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.2"
+  }
+}
